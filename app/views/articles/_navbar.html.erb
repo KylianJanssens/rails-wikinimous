@@ -1,0 +1,17 @@
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon mb-4 sticky-top bg-body-tertiary border border-secondary-subtle">
+  <div class="container-fluid d-flex align-items-center justify-content-between">
+    <%= link_to "/articles", class: "navbar-brand d-flex align-items-center" do %>
+      <p>Wikinimous</p>
+    <% end %>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item active d-flex align-items-center">
+          <%= link_to "/articles/new", class: "nav-link" do %>
+          <p>New Article</p>
+          <% end %>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
