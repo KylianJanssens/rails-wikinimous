@@ -3,6 +3,5 @@
   <div class="mb-3">
     <h2><%= link_to article.title, article_path(article), class: "text-decoration-none text-dark link-hover" %></h2>
     <%= content_tag(:span, article.content.truncate(300, omission: '...').html_safe, class: "text-dark fw-light") %>
-
   </div>
 <% end %>
